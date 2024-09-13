@@ -1,0 +1,39 @@
+.home {
+  height: 100vh;
+  margin: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.home > .login> h3 {
+  margin: 0;
+}
+.login{
+    width: 250px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.button{
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: orange;
+}
+.input{
+    border: none;
+    outline: none;
+    height: 40px;
+    margin-top: 5px;
+    padding: 0 15px;
+    width: calc(100%,-4px);
+    border-radius: 8px;
+    background-color: white;
+}
+ 

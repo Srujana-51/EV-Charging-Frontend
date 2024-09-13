@@ -1,0 +1,22 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 10px;
+    background-color: black;
+  }
+  .message {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+  }
+  .message > span {
+    color: white;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: 0.5px solid white;
+    background-color: green;
+  }

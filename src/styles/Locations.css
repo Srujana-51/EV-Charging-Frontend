@@ -1,0 +1,62 @@
+.locations-container {
+    width: 23%;
+    padding: 0 50px;
+  }
+  .list-container {
+    height: 80%;
+    margin-top: 110px;
+    padding: 0 20px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    background-color: rgba(95, 94, 94, 0.747);
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title > p:last-child {
+    color: orange;
+    cursor: pointer;
+  }
+  .all-list {
+    display: grid;
+    gap: 10px;
+  }
+  .list {
+    margin: 5px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(195, 202, 202, 0.534);
+  }
+  .portList{
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 0;
+    background-color: rgba(195, 202, 202, 0.534);
+  }
+  .portList>p{
+    margin: 0;
+  }
+  .portList>button{
+    border-radius: 8px;
+    background-color: orange;
+    border: none;
+    color: white;
+    height: 25px;
+    cursor: pointer;
+  }
+  .portList .stop-btn {
+    color: orange;
+    background-color: white;
+  }

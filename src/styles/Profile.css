@@ -1,0 +1,42 @@
+.profile-container {
+    width: 23%;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .charge-it {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .charge-it > p {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .user-id {
+    color: orange;
+  }
+  .over-view {
+    height: 60px;
+    display: flex;
+    margin-left: 20px;
+    color: orange;
+    border-radius: 15px;
+    align-items: center;
+    background-color: rgb(126, 108, 74);
+  }
+  .over-view > h3 {
+    margin-left: 20px;
+  }
+  .profile{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: orange;
+  }
+  .user-profile{
+    height: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
